@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>What is the use of setTimeout</h1>
+    <pre>
+        The setTimeout() is a method inside the window object, it calls the specified function or
+        evaluates a JavaScript expression provided as a string after a given time period for only once.
+        We all have used alarms or reminders several times, this setTimeout() method also has the
+        same purpose in web applications. 
+    </pre>
+    <h1>What is an event loop and call stack</h1>
+    <pre>
+        A call stack is a mechanism for an interpreter (like the JavaScript interpreter in a web browser)
+        to keep track of its place in a script that calls multiple functions — what function is currently
+        being run and what functions are called from within that function, etc. or we can say that it
+        stores global execution context and function execution context. 
+    </pre>
+    <h1>What are promises and why do we need them?</h1>
+    <pre>
+        Promises are used to handle asynchronous operations in JavaScript. They are easy to manage
+        when dealing with multiple asynchronous operations where callbacks can create callback hell
+        leading to unmanageable code.
+        Multiple callback functions would create callback hell that leads to unmanageable code. Also it
+        is not easy for any user to handle multiple callbacks at the same time.   
+    </pre>
+    <h1>What is the purpose of async/await keywords?</h1>
+    <pre>
+        An async function is a function declared with the async keyword, and the await keyword is
+        permitted within it. The async and await keywords enable asynchronous, promise-based
+        behavior to be written in a cleaner style, avoiding the need promise chains.
+        The use of await pauses the async function until the promise returns a result (resolve or reject)
+        value.   
+    </pre>
+    <h1>What is hoisting?</h1>
+    <pre>
+        Hoisting is a JavaScript mechanism where variables and function declarations are moved to the
+        top of their scope before code execution. Remember that JavaScript only hoists declarations,
+        not initialisation. Let's take a simple example of variable hoisting. Let and const keywords are
+        not hoisted so when you try to access them before initialization they start giving you Reference
+        error. 
+    </pre>
+    <h1>What is the DOM?</h1>
+    <pre>
+        The Document Object Model (DOM) is the data representation of the objects that comprise the
+        structure and content of a document on the web.
+        The Document Object Model (DOM) is a programming interface for web documents. It
+        represents the page so that programs can change the document structure, style, and content.
+        The DOM represents the document as nodes and objects; that way, programming languages can
+        interact with the page.
+    </pre>
+    <h1>Difference between undefined vs not defined vs NaN</h1>
+    <pre>
+        Undefined
+        undefined is a global variable that JavaScript creates at run time. JavaScript assigns undefined
+        to any variable that has been declared but not initialized. In other words, in a case where no
+        value has been explicitly assigned to the variable, JavaScript calls it undefined.
+        
+        null
+        It is one of JavaScript's primitive data type and is treated as falsy for boolean operations.null is
+        an empty or non-existent value and null must be assigned. We use null when we want to
+        explicitly declare that a variable is empty.
+        
+        not defined
+        A not defined is a variable that is not declared inside the code at a given point of time with
+        declaration keyword like var, let, or const.
+    </pre>
+</body>
+</html>
